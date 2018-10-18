@@ -1,0 +1,15 @@
+Criar uma tarefa no agendador de tarefas do Windows
+
+Abra o agendador;
+clique em Criar Tarefa;
+depois, em "Ações" > "Novo...";
+em "Programa/script" coloque o camilho do Python, para saber o caminho use este comando no prompt: python -c "import sys; print(sys.executable)";
+em "Adicione argumentos", coloque o nome do seu arquivo Python;
+em "Iniciar em" coloque o caminho da pasta onde está o arquivo informando anteriormente;
+clique em "Ok";
+vá na aba "Disparadores";
+clique em "Novo" e agende quando você deseja que o seu programa execute;
+ao final, basta clicar em "Ok" e pronto!
+
+
+Referência: https://www.youtube.com/watch?v=n2Cr_YRQk7o
